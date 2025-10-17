@@ -8,3 +8,4 @@
 <li>Analiza el codigo con SonarCloud</li>
 <li>Construye y sabe una imagen al dockerHub</li>
 </ol>
+<p>El docker compose se inicia con el comando: docker compose ps dentro del archivo que lo tiene</p>
