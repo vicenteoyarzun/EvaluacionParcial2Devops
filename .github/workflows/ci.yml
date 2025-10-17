@@ -18,7 +18,7 @@ jobs:
           node-version: 20
 
       - name: Instalar dependencias
-        run : npm ci
+        run : npm ci --legacy-peer-deps
 
       - name: Eslint
         run : npx eslint -c .eslintrc.json src --fix --max-warning=0
