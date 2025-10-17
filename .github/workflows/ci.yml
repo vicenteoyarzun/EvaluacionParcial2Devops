@@ -6,7 +6,7 @@ on:
       - 'main'
 env:
   DOCKERHUB_USERNAME: vicenteoyarzun
-  DOCKER_REPO: devops
+  DOCKERHUB_REPO: devops
 jobs:
   build:
     runs-on: ubuntu-latest
