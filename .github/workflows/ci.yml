@@ -5,6 +5,7 @@ on:
     branches:
       - 'main'
 env:
+  DOCKERHUB_USERNAME: vicenteoyarzun
   DOCKER_REPO: devops
 jobs:
   build:
