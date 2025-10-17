@@ -24,7 +24,9 @@ jobs:
         run : npx eslint -c .eslintrc.json src --fix --max-warnings=0
 
       - name: Test 
-        run : npx karma start --single-run
+        run : |
+         export CHROME_BIN=$(which google-chrome-stable)
+         npm test -- --watchAll=false --ci --browsers=ChromeHeadless
 
       - name: Snyk
         uses: snyk/actions/node@master
